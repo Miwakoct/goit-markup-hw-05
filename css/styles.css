@@ -484,6 +484,21 @@ img {
   fill: #f4f4fd;
 }
 
+/* =============FOOTER FORM================= */
+.footer-form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+/* ========================================= */
+
 /* =================BACKDROP FORM================= */
 
 .backdrop {
@@ -631,6 +646,7 @@ img {
 .modal-textarea-textinput:focus {
   border-color: #4d5ae5;
 }
+/* CHECKBOX */
 
 .checkbox {
   margin-bottom: 24px;
@@ -658,12 +674,9 @@ img {
   margin-right: 8px;
 }
 
-.modal-input-checkbox:checked + .checkbox-label span {
+.modal-input-checkbox:checked + .checkbox-label > span {
   background-color: #404bbf;
-
   border: none;
-}
-.checkbox-click:checked + .checkbox-icon {
   fill: #f4f4fd;
 }
 
@@ -672,6 +685,7 @@ img {
 }
 
 .checkbox-btn {
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
