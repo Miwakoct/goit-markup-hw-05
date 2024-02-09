@@ -636,7 +636,7 @@ img {
   margin-bottom: 24px;
 }
 
-.checkbox-text {
+.checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -658,17 +658,18 @@ img {
   margin-right: 8px;
 }
 
-.modal-input-checkbox:checked + .checkbox-click {
+.modal-input-checkbox:checked + .checkbox-label span {
   background-color: #404bbf;
-  border: none; 
-  fill: #F4F4FD;
+  border: none;
+}
+.checkbox-click:checked + .checkbox-icon {
+  fill: #f4f4fd;
 }
 
-
-
-.checkbox-link 
+.checkbox-link {
   color: #4d5ae5;
 }
+
 .checkbox-btn {
   display: block;
   min-width: 169px;
